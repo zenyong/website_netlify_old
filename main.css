@@ -17,7 +17,7 @@ h1 {
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #20bcd5;
+    border: #20bcd5;
     padding: 10px;
 }
 p {

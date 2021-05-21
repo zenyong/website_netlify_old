@@ -49,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: dark green;
   border: 1px solid black
   text-decoration: none;/*text decoration specifies the decoration added to text*/
                         /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/

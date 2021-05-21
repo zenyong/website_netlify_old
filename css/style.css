@@ -35,8 +35,8 @@ nav ul {
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
-  background-color: #4dabf5;
-  border: 4px solid darkgreen
+  background-color: darkgreen;
+  border: 1px solid black
 }
 
 nav ul li {

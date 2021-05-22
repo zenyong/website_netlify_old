@@ -19,7 +19,7 @@ body {
                 /* If the value is 0 then why we're specifing?
                  Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
                 */
-  background-color: rgba(200,247,197,0);
+  background: rgba(200,247,197,0);
   min-height: 55vh;/*min height sets the minimum height to 5vh*/
                     /*vh means 55% of the viewport height*/
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/

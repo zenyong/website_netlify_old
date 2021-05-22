@@ -56,18 +56,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   color: black;
 }*
 
-.work {
-  padding-top: 60px;
-  margin-top: -60px;
-}
-
-.work .work-header {
-  margin-top: 50px;
-  color: #008080;
-  font-weight: normal;
-}
-
-.project {
+.web_design{
   text-decoration: none;
   color: #008080;
   display: inline-block;
@@ -76,42 +65,9 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   height: 220px;
   width: 280px;
   margin: 40px 100px;
+
 }
 
-.project-pic {
-  width: 100%;
-  height: 180px;
-  border-bottom: 2px solid lightblue;
-}
-
-.project-title {
-  font-weight: bold;
-}
-
-.show-all {
-  text-decoration: none;
-  display: block;         /*block attribute displays the element as a block element */
-                          /*It starts on a new line, and takes up the whole width */
-  width: 200px;           /*width sets the width of the elemnt */
-  height: 30px;           /*height sets the height of the element */
-  margin: 20px auto 90px; /*margin sets the margin for the top, right, bottom and left of the element respectively*/
-                          /*here auto tells the browser to automatically determine the left and right margins itself,
-                           which it does by setting them equally */
-  background: #e0ebe8;
-  color: #008080;
-  font-weight: bold;        /*font weight sets how thick or thin characters in text should be displayed */
-  font-size: 1em;           /*font size sets the size of the font */
-  border: 2px solid #90C695;/*border property allows you to specify the style, width, and color of an element's border */
-  border-radius: 4px;       /* it defines the radius of the element's corners and is used to add rounded corners to the borders*/
-  cursor: pointer;          /*specifies the mouse cursor to be displayed when pointing over an element*/
-                            /*pointer indicates the cursor is a pointer and indicates a link*/
-  padding-top: 10px;
-}
-
-.show-all:hover {
-  background: #E4F1FE;
-  color: green;
-}
 
 @media only screen and (max-width: 500px) {
   nav ul {

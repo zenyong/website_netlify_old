@@ -64,12 +64,12 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   border: 2px solid lightblue;
   height: 220px;
   width: 280px;
-  margin: 40px 100px;
+  margin: 20px 40px;
 
 }
 .skill-title {
   font-weight: bold;
-  margin: 40px 10px;
+  margin: 10px 20px;
 }
 
 

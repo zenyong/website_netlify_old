@@ -67,6 +67,10 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   margin: 40px 100px;
 
 }
+.skill-title {
+  font-weight: bold;
+  margin: 40px 10px;
+}
 
 
 @media only screen and (max-width: 500px) {

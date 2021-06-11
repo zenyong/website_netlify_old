@@ -13,5 +13,5 @@
     $headers = "Reply-To : $visitor_email";
     mail($to, $email_subject, $email_body, $headers);
 
-    header("location: form.html")
+    header("location: index.html")
 ?>

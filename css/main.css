@@ -67,7 +67,7 @@ body {
   font-family: "librebaskerville-regular", serif;
   font-size: 1.6rem;
   line-height: 3rem;
-  color: #353535;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -1247,12 +1247,13 @@ header .row {
 header .header-logo {
   position: absolute;
   left: 32px;
-  top: 42px;
+  top: 35px;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+
 }
 header .header-logo a {
   display: block;
@@ -1489,9 +1490,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    width: 55px;
+    height: 40px;
+    background-size: 60px 50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1778,7 +1779,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-image: linear-gradient(45deg, black, transparent);
   min-height: 696px;
   text-align: center;
 }
@@ -1809,7 +1810,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "librebaskerville-bold", serif;
   font-size: 4rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: #ffffff;
   margin-top: 6rem;
 }
 
